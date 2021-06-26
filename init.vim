@@ -30,18 +30,18 @@ if (has("termguicolors"))
     hi Normal ctermbg=NONE guibg=NONE
 endif
 
-
-
 filetype plugin indent on
 
-set hlsearch
 set incsearch
+set nohlsearch
 set noshowmode
 set noshowcmd
-set ruler
-"set laststatus=1
+set noruler
+set laststatus=1
+set cmdheight=1
 set rulerformat=%l:%c
 set scrolloff=5
+set shortmess+=FI
+set nuw=4
 
-
-
+set nu rnu
